@@ -31,7 +31,7 @@ const LoginPage = () => {
       alert(error.message)
      }
      if(res){
-      alert("Sigin successful");
+      alert("Signin successful");
      }
   };
     
