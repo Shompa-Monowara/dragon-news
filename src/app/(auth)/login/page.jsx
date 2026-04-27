@@ -26,6 +26,13 @@ const LoginPage = () => {
     callbackURL: "/",
 });
    console.log(res, error);
+    console.log(res, error);
+     if(error){
+      alert(error.message)
+     }
+     if(res){
+      alert("Sigin successful");
+     }
   };
     
   console.log(watch("email"));
